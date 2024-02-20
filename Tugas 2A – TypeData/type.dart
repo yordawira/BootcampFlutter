@@ -53,6 +53,23 @@ var sentence = "I am going to be Flutter Developer";
 
   print('Nama lengkap Anda adalah: $fullName');*/
 
+// soal no 4
+
+  int a = 5;
+  int b = 10;
+
+  int multiplication = a * b;
+  print('Perkalian   : $multiplication');
+
+  double division = a / b;
+  print('Pembagian   : $division');
+
+  int addition = a + b;
+  print('Pertambahan : $addition');
+
+  int subtraction = a - b;
+  print('Pengurangan : $subtraction');
+  
 
 }
 
