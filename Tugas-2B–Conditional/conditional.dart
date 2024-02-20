@@ -1,10 +1,9 @@
+// 1. Ternary operator 
 
-/*import 'dart:io';
+//import 'dart:io';
 
-1. Ternary operator 
-
-void main() {
-  stdout.write('Apakah Anda ingin menginstall aplikasi? (Y/T): ');
+//void main() {
+  /*stdout.write('Apakah Anda ingin menginstall aplikasi? (Y/T): ');
   String answer = stdin.readLineSync()!.toUpperCase(); // Mengonversi jawaban menjadi huruf besar
 
   // Menggunakan operator ternary untuk menampilkan pesan sesuai jawaban
@@ -16,9 +15,9 @@ void main() {
 
 //2. If-else if dan else
 
-/*void main() {
+//void main() {
   
-  stdout.write('Masukkan nama Anda: ');
+  /*stdout.write('Masukkan nama Anda: ');
   String nama = stdin.readLineSync()!;
   
   
@@ -54,11 +53,10 @@ void main() {
 }*/
 
 
+//3. Switch case
 
-import 'dart:io';
-
-void main() {
-  stdout.write('Masukkan hari ini (Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, Minggu): ');
+//void main() {
+/*stdout.write('Masukkan hari ini (Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, Minggu): ');
   String hari = stdin.readLineSync()!.toLowerCase();
 
   switch (hari) {
@@ -86,6 +84,62 @@ void main() {
     default:
       print('Hari yang Anda masukkan tidak valid.');
   }
+}*/
+
+
+void main() {
+  var tanggal = 21;
+  var bulan = 1;
+  var tahun = 1945;
+
+  // Mengonversi bulan menjadi nama bulan
+  String namaBulan;
+  switch (bulan) {
+    case 1:
+      namaBulan = 'Januari';
+      break;
+    case 2:
+      namaBulan = 'Februari';
+      break;
+    case 3:
+      namaBulan = 'Maret';
+      break;
+    case 4:
+      namaBulan = 'April';
+      break;
+    case 5:
+      namaBulan = 'Mei';
+      break;
+    case 6:
+      namaBulan = 'Juni';
+      break;
+    case 7:
+      namaBulan = 'Juli';
+      break;
+    case 8:
+      namaBulan = 'Agustus';
+      break;
+    case 9:
+      namaBulan = 'September';
+      break;
+    case 10:
+      namaBulan = 'Oktober';
+      break;
+    case 11:
+      namaBulan = 'November';
+      break;
+    case 12:
+      namaBulan = 'Desember';
+      break;
+    default:
+      namaBulan = 'Bulan tidak valid';
+  }
+
+  print('$tanggal $namaBulan $tahun');
 }
+
+
+
+
 
 
