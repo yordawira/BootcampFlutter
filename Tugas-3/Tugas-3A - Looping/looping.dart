@@ -1,4 +1,4 @@
-//No. 1 Looping While 
+// No. 1 Looping While 
 
 //void main () {
 
@@ -21,11 +21,11 @@
   }
 }*/
 
-//No. 2 Looping menggunakan for
+// No. 2 Looping menggunakan for
 
-void main() {
+//void main() {
 
-  for (int i = 1; i <= 20; i++) {
+  /*for (int i = 1; i <= 20; i++) {
     if (i % 3 == 0 && i % 2 != 0) {
       print('$i - I Love Coding');
     } else if (i % 2 == 0) {
@@ -34,5 +34,22 @@ void main() {
       print('$i - Santai');
     }
   }
-  
+
+}*/
+
+// No. 3 Membuat Persegi Panjang #
+
+void main() {
+
+  int rows = 8;
+  int columns = 4;
+
+  for (int i = 0; i < rows; i++) {
+    String rowOutput = '';
+    for (int j = 0; j < columns; j++) {
+      rowOutput += '#';
+    }
+    print(rowOutput);
+  }
 }
+
