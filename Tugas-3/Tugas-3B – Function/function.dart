@@ -81,7 +81,7 @@ void main() {
 
   int number = 6;
   int result = factorial(number);
-  print("$number! = $result"); // Output: 6! = 720
+  print("$number! = $result"); 
   
 }
 
