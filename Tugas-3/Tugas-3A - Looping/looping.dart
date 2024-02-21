@@ -38,10 +38,9 @@
 }*/
 
 // No. 3 Membuat Persegi Panjang #
+//void main() {
 
-void main() {
-
-  int rows = 8;
+  /*int rows = 8;
   int columns = 4;
 
   for (int i = 0; i < rows; i++) {
@@ -51,5 +50,20 @@ void main() {
     }
     print(rowOutput);
   }
+}*/
+
+// No. 4 Membuat Tangga 
+void main() {
+  int height = 7;
+
+  for (int i = 1; i <= height; i++) {
+    String rowOutput = '';
+    for (int j = 1; j <= i; j++) {
+      rowOutput += '#';
+    }
+    print(rowOutput);
+  }
 }
+
+
 
