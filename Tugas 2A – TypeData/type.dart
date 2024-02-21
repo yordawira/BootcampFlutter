@@ -1,5 +1,5 @@
 //import 'dart:io';
-void main () {
+//void main () {
 
 /*A Tugas String
 
@@ -55,7 +55,7 @@ var sentence = "I am going to be Flutter Developer";
 
 // soal no 4
 
-  int a = 5;
+  /*int a = 5;
   int b = 10;
 
   int multiplication = a * b;
@@ -71,5 +71,5 @@ var sentence = "I am going to be Flutter Developer";
   print('Pengurangan : $subtraction');
   
 
-}
+}*/
 

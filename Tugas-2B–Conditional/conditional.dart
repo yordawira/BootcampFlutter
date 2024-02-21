@@ -87,8 +87,8 @@
 }*/
 
 
-void main() {
-  var tanggal = 21;
+//void main() {
+  /*var tanggal = 21;
   var bulan = 1;
   var tahun = 1945;
 
@@ -136,7 +136,7 @@ void main() {
   }
 
   print('$tanggal $namaBulan $tahun');
-}
+}*/
 
 
 
