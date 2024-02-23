@@ -1,11 +1,11 @@
 import 'employee.dart';
 
 void main() {
-  // Membuat objek Employee dengan nilai yang disediakan
+  
   Employee employee1 = Employee(1, 'Yorda Wira Aswin', 'Engineering');
   Employee employee2 = Employee(2, 'Kemal shariva', 'Marketing');
 
-  // Menampilkan informasi employee
+  
   print('Employee 1:');
   print('ID: ${employee1.id}');
   print('Name: ${employee1.name}');
