@@ -1,13 +1,10 @@
-// ignore: file_names
 import 'package:flutter/material.dart';
+import 'package:sanberappflutter/Tugas/Tugas9/Chart_model.dart';
 import 'DrawerScreen.dart';
-import 'Chart_model.dart';
+import 'Models/Chart_model.dart';
 
 class Telegram extends StatefulWidget {
-  const Telegram({super.key});
-
   @override
-  // ignore: library_private_types_in_public_api
   _TelegramState createState() => _TelegramState();
 }
 
@@ -16,15 +13,15 @@ class _TelegramState extends State<Telegram> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Telegram"),
-        actions: const <Widget>[
+        title: Text("Telegram"),
+        actions: <Widget>[
           Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(8.0),
             child: Icon(Icons.search),
           ),
         ],
       ),
-      drawer: const DrawerScreen(),
+      drawer: DrawerScreen(),
       body: ListView.separated(
         itemBuilder: (ctx, i) {
           return ListTile(
@@ -34,19 +31,19 @@ class _TelegramState extends State<Telegram> {
             ),
             title: Text(
               items[i].name!,
-              style: const TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold),
             ),
             subtitle: Text(items[i].message!),
             trailing: Text(items[i].time!),
           );
         },
-        separatorBuilder: (ctx, i) => const Divider(),
+        separatorBuilder: (ctx, i) => Divider(),
         itemCount: items.length,
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: const Color(0xFF65a9ee),
+        child: Icon(Icons.create, color: Colors.white),
+        backgroundColor: Color(0xFF65a9ec),
         onPressed: () {},
-        child: const Icon(Icons.create, color: Colors.white),
       ),
     );
   }
