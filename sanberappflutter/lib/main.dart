@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sanberappflutter/Tugas/Tugas10/HomeScreen.dart';
-import 'package:sanberappflutter/Tugas/Tugas10/LoginScreen.dart';
-import 'package:sanberappflutter/Tugas/Tugas9/Telegram.dart'; // Corrected import statement
+import 'package:sanberappflutter/Tugas/Tugas10/LoginScreen.dart'; // Corrected import statement
 
 void main() {
   runApp(const MyApp());

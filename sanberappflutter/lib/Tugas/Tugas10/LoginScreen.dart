@@ -28,30 +28,44 @@ class LoginScreen extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               Container(
-                height: 50,
-                width: double.infinity,
-                padding: EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  border: Border.all(color: Color(0xff475BD8)),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: TextFormField(
-                  decoration: InputDecoration.collapsed(hintText: "Email"),
-                ),
-              ),
-              const SizedBox(height: 10),
+                  height: 50,
+                  width: double.infinity,
+                  padding: EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color(0xff475BD8)),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: TextFormField(
+                    style: TextStyle(
+                        fontSize: 16), // Set your desired font size here
+                    decoration: InputDecoration.collapsed(
+                      hintText: "Email",
+                      hintStyle: TextStyle(
+                          fontSize: 13), // Adjust font size of the hint text
+                      border: InputBorder.none, // Optionally remove the border
+                      // Other decoration properties...
+                    ),
+                  )),
+              const SizedBox(height: 15),
               Container(
-                height: 50,
-                width: double.infinity,
-                padding: EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  border: Border.all(color: Color(0xff475BD8)),
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: TextFormField(
-                  decoration: InputDecoration.collapsed(hintText: "Password"),
-                ),
-              ),
+                  height: 50,
+                  width: double.infinity,
+                  padding: EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color(0xff475BD8)),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: TextFormField(
+                    style: TextStyle(
+                        fontSize: 16), // Set your desired font size here
+                    decoration: InputDecoration.collapsed(
+                      hintText: "Password",
+                      hintStyle: TextStyle(
+                          fontSize: 13), // Adjust font size of the hint text
+                      border: InputBorder.none, // Optionally remove the border
+                      // Other decoration properties...
+                    ),
+                  )),
               const SizedBox(height: 10),
               Container(
                 height: 50,
