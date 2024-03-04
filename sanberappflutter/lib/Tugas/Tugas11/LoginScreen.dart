@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sanberappflutter/Tugas/Tugas10/HomeScreen.dart';
+import 'package:sanberappflutter/Tugas/Tugas11/Home.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -37,14 +37,11 @@ class LoginScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: TextFormField(
-                    style: TextStyle(
-                        fontSize: 16), // Set your desired font size here
+                    style: TextStyle(fontSize: 16),
                     decoration: InputDecoration.collapsed(
                       hintText: "Email",
-                      hintStyle: TextStyle(
-                          fontSize: 13), // Adjust font size of the hint text
-                      border: InputBorder.none, // Optionally remove the border
-                      // Other decoration properties...
+                      hintStyle: TextStyle(fontSize: 13),
+                      border: InputBorder.none,
                     ),
                   )),
               const SizedBox(height: 15),
@@ -57,14 +54,11 @@ class LoginScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: TextFormField(
-                    style: TextStyle(
-                        fontSize: 16), // Set your desired font size here
+                    style: TextStyle(fontSize: 16),
                     decoration: InputDecoration.collapsed(
                       hintText: "Password",
-                      hintStyle: TextStyle(
-                          fontSize: 13), // Adjust font size of the hint text
-                      border: InputBorder.none, // Optionally remove the border
-                      // Other decoration properties...
+                      hintStyle: TextStyle(fontSize: 13),
+                      border: InputBorder.none,
                     ),
                   )),
               const SizedBox(height: 10),
@@ -79,7 +73,7 @@ class LoginScreen extends StatelessWidget {
                   child: ElevatedButton(
                     onPressed: () {
                       Route route =
-                          MaterialPageRoute(builder: (context) => HomeScreen());
+                          MaterialPageRoute(builder: (context) => Home());
                       Navigator.push(context, route);
                     },
                     style: ButtonStyle(
