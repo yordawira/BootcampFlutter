@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523284382246",
+    "project_id": "tugas13-c75c3",
+    "storage_bucket": "tugas13-c75c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523284382246:android:c482f726b394c5578c5ce7",
+        "android_client_info": {
+          "package_name": "com.example.sanberappflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSWD2Ol-nBLyhP9ULEiB8ElvsOpXiKeGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -48,7 +48,7 @@ class _GetDataDetailScreenState extends State<GetDataDetailScreen> {
       appBar: AppBar(
         title: Text("Get data api regres"),
       ),
-      body: data == null || data!.isEmpty ?? true
+      body: data == null || data!.isEmpty
           ? Center(
               child: Container(
                 width: 100,
